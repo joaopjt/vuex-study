@@ -13,8 +13,6 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 ```
 
-````
-
 After we register Vuex, we create a instance of **Vuex.Store()** and export that to, after, import and pass to Vue created instance.
 
 > Exemple
