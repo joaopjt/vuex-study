@@ -38,6 +38,7 @@ To this, you need to import the ``mapGetters`` from *Vuex*. See the exemple belo
 > Exemple
 ```javascript
 // component.vue
+import { mapGetters } from 'vuex';
 
 computed: {
   mapGetters([
@@ -51,9 +52,10 @@ To access the method with another name, you can do like this:
 
 ```javascript
 // component.vue
+import { mapGetters } from 'vuex';
 
 {
-mapGetters({
+  mapGetters({
     exemple: 'getterExemple',
     another: 'anotherExistentGetter'
   })
